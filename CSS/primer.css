@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Yellowtail&display=swap');
+
+*{
+    font-family:"atkinson web";
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+/*seccion inicio como hago para que me lea las imagenes el css*/
+.inicio{
+    background: linear-gradient( rgba(0,0,0,.3), rgba(0,0,0,.3)),
+  
+    url("./img/photo-1587620962725-abab7fe55159.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+
+}
+.inicio .contenido-section{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+
+.inicio .contenido-section header{
+
+ padding: 30px;
+
+}
+/* menu lateral */
+
+.inicio .contenido-section header nav {
+
+   position: fixed;
+   margin-left: 60px;
+   background-color: #f20707;
+   padding: 15px;
+   border-radius: 10px;
+   text-align: left;
+   z-index: 99;
+/* aqui le saco el display de la izquierda*/
+   display: none;
+}
+
+.inicio .contenido-section header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+}
+
+
+
+.inicio .contenido-section header .nav-bar{
+ position: fixed;
+ background-color: #aafd06;
+ font-size: 20px;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ line-height: 50px;
+ cursor: pointer;
+ transition: .3s;
+
+}
+.inicio .contenido-section header .nav-bar:hover{
+    box-shadow: 0 0 35px black
+}
+
+.inicio .contenido-section .info{
+ padding-bottom: 130px;
+}
+
+.inicio .contenido-section .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-family: "yellowtail";
+    color: red;
+}
+.inicio .contenido-section .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+
+}
+.inicio .contenido-section .redes{
+    margin: 20px 0;
+}
+
+.inicio .contenido-section .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: #d8d2d2;
+    border: 3px solid #aafd06;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+
+}
+.inicio .contenido-section .redes a:hover{
+    color: #fff;
+    background-color: brown;
+    box-shadow: 0 0 20px #fff;
+
+
+}
+.inicio .contenido-section .foto{
+    position: relative;
+}
+
+.inicio .contenido-section .foto img{
+    max-width:  200px;
+    border-radius: 50%;
+    border: 5px solid #aafd06;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+  /*estilos generales */
+  .titulo-section {
+    font-family: "yellowtail";
+    font-size: 1.5rem;
+    
+  }
+
+  
+
+    /*segunda parte */
+.sobremi{
+    background-color: #60615d;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    color:#fff;
+}
+.sobremmi .contenido-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    color: #fff;
+
+}
+.sobremi .contenido-section h2{
+    color: black;
+}
+
+.sobremi .contenido-section h3{
+    text-transform: uppercase;
+    font-size:30px ;
+    color: #fff;
+}
+
+.sobremi .contenido-section .especial{
+    color: #fff;
+    font-weight: bold;
+    margin-top:15px ;
+}
+ .sobremi .contenido-section .p{
+    max-width: 700px;
+    margin:auto;
+    
+ }
+/* la fila */
+.sobremi .contenido-section .listing {
+    list-style: none;
+    margin: 2em;
+    display: grid;
+    gap: 20px;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .listing .wide {
+    grid-column-end: span 2;
+  }
+  
+
+  .sobremi .contenido-section .listing h2{
+
+ 
+    color: #87f008;
+  }
+
+  .sobremi .contenido-section .listing i{
+    color: black;
+    width:100px;
+    border-radius: 50%;
+
+  }
