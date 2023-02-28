@@ -9,3 +9,4 @@ una captura onclick y  aplica java para las dos secciones inicio e info (me dire
 tambien contiene el header con informacion corta  mas los iconos logos de: facebook, instagram, wzp, despues mas abajo contiene la foto,
 
 la 2° seccion: contiene una grill de 5 celdas la cual cada una contiene informacion sobre el prospecto con sus respectivos iconos.
+https://github.com/Pab0irgithub/MiprimerCv.git
